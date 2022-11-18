@@ -24,6 +24,8 @@ The application includes features for:
 
 ## Index
 
+Read this first: [Overall description](Overall%20description.md) and [Plugin](Plugin.md).
+
 + [AFK](AFK.md) - How to deal with AFK players
 + [Commands](Commands.md) - List of all commands registered by the plugin
 + [Database](Database.md) - Database schema
@@ -35,8 +37,6 @@ The application includes features for:
 + [Lag compensation](Lag%20compensation.md) - What lag compensation does and how it works
 + [Maps](Maps.md) - How to design a map for an FPSMO game, spawning system, metadata, etc.
 + [Moderation](Moderation.md) - How moderation works, notably `/CmdReferee`
-+ [Overall description](Overall%20description.md)
-+ [Plugin](Plugin.md) - Plugin related specification, *i.e.* what happens when it's loaded/unloaded
 + [Recording games](Recording%20games.md) - How recording game works
 + [Texture pack](Texture%20pack.md) - How a texture pack should be designed for an FPSMO game
 + [Voting](Voting.md) - How voting for the next map works
