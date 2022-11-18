@@ -29,16 +29,16 @@ The application includes features for:
 + [Database](Database.md) - Database schema
 + [Economy](Economy.md) - Name of currency, items that can be bought, etc.
 + [GUI](GUI.md) - What should be shown to the player and when
-+ [Game modes](Game modes.md) - Specification for team vs. team and all vs. all
++ [Game modes](Game%20modes.md) - Specification for team vs. team and all vs. all
 + [Inventory](Inventory.md) - Items carried by a player, *i.e.* bullets, arrows, tnt...
 + [Items](Items.md) - Items that can be collected on the map
-+ [Lag compensation](Lag compensation.md) - What lag compensation does and how it works
++ [Lag compensation](Lag%20compensation.md) - What lag compensation does and how it works
 + [Maps](Maps.md) - How to design a map for an FPSMO game, spawning system, metadata, etc.
 + [Moderation](Moderation.md) - How moderation works, notably `/CmdReferee`
-+ [Overall description](Overall description.md)
++ [Overall description](Overall%20description.md)
 + [Plugin](Plugin.md) - Plugin related specification, *i.e.* what happens when it's loaded/unloaded
-+ [Recording games](Recording games.md) - How recording game works
-+ [Texture pack](Texture pack.md) - How a texture pack should be designed for an FPSMO game
++ [Recording games](Recording%20games.md) - How recording game works
++ [Texture pack](Texture%20pack.md) - How a texture pack should be designed for an FPSMO game
 + [Voting](Voting.md) - How voting for the next map works
 + [Weapons](Weapons.md) - List of weapons and their characteristics
 + [XP](XP.md) - Leveling system
