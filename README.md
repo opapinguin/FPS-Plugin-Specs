@@ -38,7 +38,6 @@ Read this first: [Overall description](Overall%20description.md) and [Plugin](Pl
 + [Maps](Maps.md) - How to design a map for an FPSMO game, spawning system, metadata, etc.
 + [Moderation](Moderation.md) - How moderation works, notably `/CmdReferee`
 + [Recording games](Recording%20games.md) - How recording game works
-+ [Texture pack](Texture%20pack.md) - How a texture pack should be designed for an FPSMO game
 + [Voting](Voting.md) - How voting for the next map works
 + [Weapons](Weapons.md) - List of weapons and their characteristics
 + [XP](XP.md) - Leveling system
