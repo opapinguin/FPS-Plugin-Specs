@@ -1,10 +1,10 @@
 # Maps
 
-**Definition.Maps.1.** An *FPSMO map* is a map intended to be played in an FPSMO game.
+**Definition.** An *FPSMO map* is a map intended to be played in an FPSMO game.
 
 ## Designing maps for FPSMO
 
-**Assumption.Maps.2.** Every *FPSMO map* uses a texture pack complying with the following constraints:
+**Assumption.** Every *FPSMO map* uses a texture pack complying with the following constraints:
 
 + Terrain has 512 textures
 + Terrain must be consistent with ClassiCube default textures
@@ -38,7 +38,7 @@
     - 185: Half square
     - 186-223 are reserved for potential future usage
 
-**Assumption.Maps.3.** Every *FPSMO map* uses the following custom level blocks (raw blocks IDs are given here):
+**Assumption.** Every *FPSMO map* uses the following custom level blocks (raw blocks IDs are given here):
 
 + 256: Health box
 + 257: Ammunition box arrows
@@ -47,23 +47,23 @@
 + 260: Ammunition box bazooka
 + 261: Ammunition box lasergun
 
-**Requirement.Maps.4.** Map designers (or moderators, on their demand) must be able to attach the following metadata to their maps:
+**Requirement.** Map designers (or moderators, on their demand) must be able to attach the following metadata to their maps:
 
 + `countdown: int` duration of the countdown, (it can be zero)
 + `duration: int` duration *in seconds* of the round (the countdown is excluded from this duration)
 + `authors: string` comma-separated list of the authors of the map
 
-**Assumption.Maps.5.** Every *FPSMO map* has building/deleting blocks disabled.
+**Assumption.** Every *FPSMO map* has building/deleting blocks disabled.
 
-**Assumption.Maps.6.** Every *FPSMO map* has `Guest` pervisit.
+**Assumption.** Every *FPSMO map* has `Guest` pervisit.
 
-**Requirement.Maps.7.** When a player runs `/SetupFPS` on a map, an FPSMO-compatible texture pack substitute the current one and FPSMO level-blocks are added to the LBs. Hence, **Assumption.Maps.2** and **Assumption.Maps.3** are satisfied. *Preconditions:*
+**Requirement.** When a player runs `/SetupFPS` on a map, an FPSMO-compatible texture pack substitute the current one and FPSMO level-blocks are added to the LBs. Preconditions:
 
 + The player has permission to change env settings on this map
 + The player has permission to edit level-blocks on this map
 + Running the level-blocks commands won't erase any already-existing level block
 
-**Requirement.Maps.8.** Maps designer must be able to specify spawn-points in their maps. Each spawn point can be labeled “Red”, “Blue” or “Mix”.
+**Requirement.** Maps designer must be able to specify spawn-points in their maps. Each spawn point can be labeled “Red”, “Blue” or “Mix”.
 
 + If labeled “Red”, only players from the red team can spawn on this point
 + If labeled “Blue”, only players from the blue team can spawn on this point
@@ -71,21 +71,21 @@
 
 ## Map pool
 
-**Requirement.Maps.9.** Running `/FPSMO MapPool Add <map_name>` adds a map to the map pool. *Preconditions:*
+**Requirement.** Running `/FPSMO MapPool Add <map_name>` adds a map to the map pool. *Preconditions:*
 
 + `<map_name>` must be an existing map
 + Moreover, it must not already be part of the map pool
 
 Another remark, if `<map_name>` does not have meta data, default metadata is created and used.
 
-**Requirement.Maps.10.** Running `/FPSMO MapPool Remove <map_name>` remove a map from the map pool. *Preconditions:*
+**Requirement.** Running `/FPSMO MapPool Remove <map_name>` remove a map from the map pool. *Preconditions:*
 
 + `<map_name>` is in the map pool
 
 If `<map_name>` is currently being played, the game does *not* end. The map just won't be showed in the votes anymore.
 
-**Requirement.Maps.11.** If a map is deleted with `/deletelvl` *and* if this map is in the map pool, it should be removed from the map pool.
+**Requirement.** If a map is deleted with `/deletelvl` *and* if this map is in the map pool, it should be removed from the map pool.
 
-**Requirement.Maps.12.** Running `/FPSMO MapPool` displays the map pool.
+**Requirement.** Running `/FPSMO MapPool` displays the map pool.
 
-**Requirement.Maps.13.** Running `/FPSMO MapPool Remove <map_name>` when the game is running on `<map_name>` *and* `<map_name>` is the *only* map in the pool will terminate the game when the round ends (unless a map is added in between).
+**Requirement.** Running `/FPSMO MapPool Remove <map_name>` when the game is running on `<map_name>` *and* `<map_name>` is the *only* map in the pool will terminate the game when the round ends (unless a map is added in between).
