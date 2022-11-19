@@ -6,6 +6,8 @@
 
 **Definition.** *In-game.* A player is said to be *in-game* if they are currently playing FPSMO.
 
+**Definition.** *User.* Who is running a command. Can be *Console* or a *Player*.
+
 **Definition.** *Referee.* A moderator is said to be a *referee* if they ran the `/ref` command during an FPSMO game. If they leave the FPSMO map, they aren't referee anymore.
 
 **Definition.** *Map pool*. List of all maps designed for FPSMO that may appear in votes and be played.
