@@ -54,3 +54,7 @@ When failing, no money is taken from the player running the command.
 **Requirement.** `/balance <player>` (or its shortcut `/money <player>`) shows how much moneys the given player has.
 
 **Requirement.** `/store <item>` show information about that item.
+
+## Items
+
+**Requirement.** If the map pool has 3 maps or less, it is not possible to buy a `VoteQueue`.

@@ -71,21 +71,18 @@
 
 ## Map pool
 
-**Requirement.** Running `/FPSMO MapPool Add <map_name>` adds a map to the map pool. *Preconditions:*
+**Requirement.** Running `/FPS Add <map_name>` adds a map to the map pool. *Preconditions:*
 
 + `<map_name>` must be an existing map
++ `<map_name>` must *not* be `Server.Config.MainLevel`
 + Moreover, it must not already be part of the map pool
 
 Another remark, if `<map_name>` does not have meta data, default metadata is created and used.
 
-**Requirement.** Running `/FPSMO MapPool Remove <map_name>` remove a map from the map pool. *Preconditions:*
+**Requirement.** Running `/FPS Remove <map_name>` remove a map from the map pool. *Preconditions:*
 
 + `<map_name>` is in the map pool
++ `<map_name>` is not currently being played
++ `<map_name>` is not currently being voted
 
-If `<map_name>` is currently being played, the game does *not* end. The map just won't be showed in the votes anymore.
-
-**Requirement.** If a map is deleted with `/deletelvl` *and* if this map is in the map pool, it should be removed from the map pool.
-
-**Requirement.** Running `/FPSMO MapPool` displays the map pool.
-
-**Requirement.** Running `/FPSMO MapPool Remove <map_name>` when the game is running on `<map_name>` *and* `<map_name>` is the *only* map in the pool will terminate the game when the round ends (unless a map is added in between).
+**Requirement.** Running `/FPS List` prints the map pool to the user.

@@ -8,4 +8,10 @@
 
 **Requirement.** When `/punload`ing the plugin, the game must be stopped when there's one running.
 
-**Requirement.** When `/pload`ing the plugin, no default MCGalaxy command should be unregistered.
+**Requirement.** If the plugin is loaded *and* if no game is running *and* a player joins the server, they join on `Server.Config.MainLevel`.
+
+**Requirement.** *If* the plugin is loaded *and* a game is running *and* a player joins the server, they join on the map currently being played.
+
+**Requirement.** When `/pload`ing the plugin, *if* `Server.Config.MainLevel` is in the map pool, then it is removed and a message is displayed to the user indicating it.
+
+**Requirement.** *If* a player runs either `/Main`, `/Home`, `/Lobby` or `/AFK`, they are teleported to the main level `Server.Config.MainLevel`. In the latter case, they're also marked as AFK. They are considered, in all cases, as leaving the game.
