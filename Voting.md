@@ -1,12 +1,8 @@
 # Voting
 
-## The `vote.enabled` configuration variable
-
 **Requirement.** When a round ends, a vote is triggered if and only if the map pool has at least 3 maps.
 
 **Requirement.** If the map pool has 3 maps or less, it is not possible to buy a `VoteQueue`.
-
-## Map selection
 
 **Requirement.** If the map pool has only one map, then no vote is triggered. The next map to be played is just the only map in the pool.
 
