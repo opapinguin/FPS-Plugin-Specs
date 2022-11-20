@@ -6,10 +6,10 @@
 
 **Requirement.** **If** a player runs `/afk`, **then** they enter AFK-mode **and** `&S[player] &Sis AFK` should be sent to global chat.
 
-**Requirement.** **If** a player runs `/afk <reason>`, **then** they enter AFK-mode **and** `&S[player &Sis AFK: <reason>` should be sent to global chat.
+**Requirement.** **If** a player runs `/afk <reason>`, **then** they enter AFK-mode **and** `&S[player] &Sis AFK: <reason>` should be sent to global chat.
 
 **Requirement.** **If** a player enters AFK-mode, **then** they should be moved to `Server.Config.MainLevel`. 
 
 **Requirement.** **If** a player is in AFK-mode **and** interact with the game, **then** they exit AFK-mode.
 
-**Requirement.** **If** a player exists AFK-mode, **then** `&S[player] &Sis not longer AFK` should be sent to global chat **and** `&SRun &T/play &Sto join FPS!`.
+**Requirement.** **If** a player exists AFK-mode, **then** `&S[player] &Sis not longer AFK` should be sent to global chat **and** `&SRun &T/play &Sto join FPS!` should be sent to `[player]`.
