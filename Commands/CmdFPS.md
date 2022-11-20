@@ -34,6 +34,7 @@
 **Requirement.** *If* an Operator+ runs `/fps add`, *then*:
 + *if* user is a console, *then* `&WPlease provide a map to add to the pool.` should be printed to the user.
 + *else if* the contextual map is `Server.Config.MainLevel`, *then* `&WCannot add MainLevel to the map pool.` should be printed to the user.
++ *else if* the contextual map has a replay loaded, *then* `&WCannot add &T[map] &Wto map pool because it's hosting a replay.` should be printed to the user.
 + *else if* the contextual map is already in the map pool, *then* `&T[map] &Wis already in the map pool.` should be printed to the user.
 + *else* the contextual map should be added to the map pool.
 
