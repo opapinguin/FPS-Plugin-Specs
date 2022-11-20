@@ -27,7 +27,6 @@ The application includes features for:
 Read this first: [Overall description](Overall%20description.md) and [Plugin](Plugin.md).
 
 + [AFK](AFK.md) - How to deal with AFK players
-+ [Commands](Commands.md) - List of all commands registered by the plugin
 + [Database](Database.md) - Database schema
 + [Economy](Economy.md) - Name of currency, items that can be bought, etc.
 + [GUI](GUI.md) - What should be shown to the player and when
@@ -41,6 +40,13 @@ Read this first: [Overall description](Overall%20description.md) and [Plugin](Pl
 + [Voting](Voting.md) - How voting for the next map works
 + [Weapons](Weapons.md) - List of weapons and their characteristics
 + [XP](XP.md) - Leveling system
+
+# Commands registered by *FPSMOPlugin*
+
++ [CmdFPS](Commands/CmdFPS.md)
++ [CmdReplay](Commands/CmdReplay.md)
++ [CmdXP](Commands/CmdXP.md)
++ [CmdPlay](Commands/CmdPlay.md)
 
 ## Useful links
 
