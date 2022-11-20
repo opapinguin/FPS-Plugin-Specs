@@ -1,6 +1,6 @@
 # Voting
 
-**Requirement.** When a round ends, a vote is triggered if and only if the map pool has at least 3 maps.
+**Requirement.** When a round ends, a vote is triggered if and only if the map pool has at least 2 maps.
 
 **Requirement.** If the map pool has 3 maps or less, it is not possible to buy a `VoteQueue`.
 
