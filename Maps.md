@@ -25,7 +25,10 @@
     - 397: Ammunition box top bazooka
     - 398: Ammunition box top lasergun
     - 399-511 are reserved for potential future usage
-+ The font file `default.png` must be consistent with the default ClassiCube font, except for the following symbols (they are often labeled “lines and boxes”):
++ The font file `default.png` must be consistent with the default ClassiCube font, except for the following symbols:
+    - 159: Bold uppercase A
+    - 171: Bold uppercase B
+    - 172: Bold uppercase C
     - 176: Half-heart
     - 177: Death-skull
     - 178: Bow
@@ -36,7 +39,10 @@
     - 183: Sword
     - 184: Full square
     - 185: Half square
-    - 186-223 are reserved for potential future usage
+    - 186-211: Bold lowercase a-z
+    - 224-246: Bold uppercase D-Z
+    - 247: Bold bang
+    - 248: Bold question mark
 
 **Assumption.** Every *FPSMO map* uses the following custom level blocks (raw blocks IDs are given here):
 
