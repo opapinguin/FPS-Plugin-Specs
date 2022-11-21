@@ -1,6 +1,6 @@
 # CmdExperience
 
-**Requirement.** **If** a Guest+ runs `/help experience` **or** `/help xp`, **then** the following message should be printed to the user:
+**Requirement.** **If** an user runs `/help experience` **or** `/help xp`, **then** the following message should be printed to the user:
 
 ```
 &T/experience &H- Shows how much XP you have.
