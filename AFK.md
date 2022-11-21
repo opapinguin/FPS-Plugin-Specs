@@ -12,4 +12,4 @@
 
 **Requirement.** **If** a player is in AFK-mode **and** interact with the game, **then** they exit AFK-mode.
 
-**Requirement.** **If** a player exists AFK-mode, **then** `&S[player] &Sis not longer AFK` should be sent to global chat **and** `&SRun &T/play &Sto join FPS!` should be sent to `[player]`.
+**Requirement.** **If** a player exits AFK-mode, **then** `&S[player] &Sis not longer AFK` should be sent to global chat **and** `&SRun &T/play &Sto join FPS!` should be sent to `[player]`.
