@@ -31,6 +31,7 @@ Read this first: [Overall description](Overall%20description.md) and [Plugin](Pl
 + [Economy](Economy.md) - Name of currency, items that can be bought, etc.
 + [GUI](GUI.md) - What should be shown to the player and when
 + [Team versus team](Team%20versus%20team.md) - Specification for team vs. team
++ [All versus all](All%20versus%20all.md) - Specification for team vs. team
 + [Inventory](Inventory.md) - Items carried by a player, *i.e.* bullets, arrows, tnt...
 + [Items](Items.md) - Items that can be collected on the map
 + [Lag compensation](Lag%20compensation.md) - What lag compensation does and how it works
