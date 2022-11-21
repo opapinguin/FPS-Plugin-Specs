@@ -11,6 +11,6 @@ As all packets are routed through the server, at time t player A observes player
 ### An example
 As an example of lag compensation, we can compensate for lag so that when player A fires his weapon at player B and hits on his screen, it will be registered as a hit on the server.
 
-First note that when player A fires a weapon at time t, he will see the projectile as it was at time t-T_{a}. Meanwhile, he sees player B as he was at time t-T_{a}-T_{b}.
+First note that when player A fires a weapon at time t, he will see the projectile as it was at time t-2T_{a} (one T_{a} for the key press, one for the block changes). Meanwhile, he sees player B as he was at time t-T_{a}-T_{b}.
 
-It is therefore the server's responsibility to check collision of our gun, rewound in time to t-T_{a}, against player B, at a rewound time t-T_{a}-T_{b}.
+It is therefore the server's responsibility to check collision of our gun, rewound in time to t-2T_{a}, against player B, at a rewound time t-T_{a}-T_{b}.
