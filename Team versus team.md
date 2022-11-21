@@ -1,6 +1,6 @@
 # Team versus team game mode
 
-In all following requirement, it is assumed that a game is running **and** its game mode is team versus team.
+In all following requirements, it is assumed that a game is running **and** its game mode is team versus team.
 
 **Definition.** *Unbalanced.* Teams are said to be **unbalanced** if their count differ by two or more. They are *balanced* otherwise.
 
@@ -19,11 +19,11 @@ In all following requirement, it is assumed that a game is running **and** its g
 
 **Requirement.** **When** the round enters *countdown* stage, each team's score is 0.
 
-**Requirement.** **When** a player kills another player of their own team, their team score decreases by one.
+**Requirement.** **When** a player kills another player in their own team, their team score decreases by one.
 
 **Requirement.** **When** a player commits suicide, their team score decreases by one.
 
-**Requirement.** **When** a player kills another player of their opponent team, their team score increases by one.
+**Requirement.** **When** a player kills another player in their opponent team, their team score increases by one.
 
 **Requirement.** **When** the round ends, the team with highest score wins.
 
