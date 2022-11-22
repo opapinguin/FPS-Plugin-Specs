@@ -5,10 +5,9 @@
 + **When** a round ends, **if** the map pool has only 1 map, **then** no vote is triggered and the next map is the only one in the pool.
 
 + **When** a vote is triggered, **then**:
-
-+ **if** the map pool has 4 maps or more **and** some player bought a `VoteQueue`, **then** the maps selected for voting are the queued map and 2 distincts maps randomly sampled from the maps pool but the queued map.
-+ **else if** the map pool has 3 maps or more, **then** the maps selected for voting are 3 distincts maps randomly sampled from the maps pool.
-+ **else** (the map pool has exactly 2 maps), **then** those two maps are voted.
+    + **if** the map pool has 4 maps or more **and** some player bought a `VoteQueue`, **then** the maps selected for voting are the queued map and 2 distincts maps randomly sampled from the maps pool but the queued map.
+    + **else if** the map pool has 3 maps or more, **then** the maps selected for voting are 3 distincts maps randomly sampled from the maps pool.
+    + **else** (the map pool has exactly 2 maps), **then** those two maps are voted.
 
 + **If** a player sends a non-zero positive number to global chat **and** the game stage is voting **then**:
     + **if** the number is greater than the number of maps being voted, **then** it should be considered as a normal global chat message.
