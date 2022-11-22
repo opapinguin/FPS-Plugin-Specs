@@ -27,11 +27,11 @@ The application includes features for:
 Read this first: [Overall description](Overall%20description.md) and [Plugin](Plugin.md).
 
 + [AFK](AFK.md) - How to deal with AFK players
++ [All versus all](All%20versus%20all.md) - Specification for team vs. team
 + [Database](Database.md) - Database schema
 + [Economy](Economy.md) - Name of currency, items that can be bought, etc.
 + [GUI](GUI.md) - What should be shown to the player and when
 + [Team versus team](Team%20versus%20team.md) - Specification for team vs. team
-+ [All versus all](All%20versus%20all.md) - Specification for team vs. team
 + [Inventory](Inventory.md) - Items carried by a player, *i.e.* bullets, arrows, tnt...
 + [Items](Items.md) - Items that can be collected on the map
 + [Lag compensation](Lag%20compensation.md) - What lag compensation does and how it works

@@ -37,11 +37,7 @@
 
 **Requirement.** If the XP system is *enabled*, each Item requires a minimum-level for the transaction to happen. If a player does not have enough XP, a message should be displayed informing them they cannot buy the item when they try to do so.
 
-**Requirement.** If the XP system is *disabled*, any player with enough money can buy any item. All other requirement of this document assumes that economy is enabled.
-
 ## Commands
-
-**Requirement.** `/store` lists all information displayed in the table of this document.
 
 **Requirement.** `/buy <item> [args]` is used to buy items. It fails if either:
 
@@ -54,7 +50,3 @@ When failing, no money is taken from the player running the command.
 **Requirement.** `/balance <player>` (or its shortcut `/money <player>`) shows how much moneys the given player has.
 
 **Requirement.** `/store <item>` show information about that item.
-
-## Items
-
-**Requirement.** If the map pool has 3 maps or less, it is not possible to buy a `VoteQueue`.

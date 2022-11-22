@@ -1,10 +1,10 @@
 # Glossary
 
-**Definition.** *AFK*. A player is considered *AFK* if they haven't moved during the past two minutes.
+**Definition.** *AFK*. A player is considered *AFK* if they haven't with the game during the past two minutes.
 
 **Definition.** *Console*. Console program running the server. It may be responsible for `/pload`ing the plugin.
 
-**Definition.** *In-game.* A player is said to be *in-game* if they are currently playing FPSMO.
+**Definition.** *In-game.* A player is said to be *in-game* if they are currently playing FPSMO. A referee is not considered as *in-game*.
 
 **Definition.** *User.* Who is running a command. Can be *Console* or a *Player*.
 
