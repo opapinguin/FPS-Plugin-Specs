@@ -65,17 +65,3 @@
     + If labeled “Red”, only players from the red team can spawn on this point
     + If labeled “Blue”, only players from the blue team can spawn on this point
     + If labeled “Mix”, any player can spawn on this point
-
-## Map pool
-
-+ Running `/fps add <map_name>` adds a map to the map pool. *Preconditions:*
-    + `<map_name>` must be an existing map
-    + `<map_name>` must *not* be `Server.Config.MainLevel`
-    + Moreover, it must not already be part of the map pool
-
-+ Running `/fps remove <map_name>` remove a map from the map pool. *Preconditions:*
-    + `<map_name>` is in the map pool
-    + `<map_name>` is not currently being played
-    + `<map_name>` is not currently being voted
-
-+ Running `/fps List` prints the map pool to the user.
