@@ -1,6 +1,6 @@
 # Configuration
 
-**Requirement.** **When** `/pload`ing the plugin for the first time, the following configuration file `fpsmo/game.properties` should be created:
++ **When** `/pload`ing the plugin for the first time, the following configuration file `fpsmo/game.properties` should be created:
 
 ```nofmt
 # Edit the settings below to fit your needs

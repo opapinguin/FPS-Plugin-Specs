@@ -11,3 +11,5 @@
 **Definition.** *Referee.* A moderator is said to be a *referee* if they ran the `/ref` command during an FPSMO game. If they leave the FPSMO map, they aren't referee anymore.
 
 **Definition.** *Map pool*. List of all maps designed for FPSMO that may appear in votes and be played.
+
+**Definition.** An *FPSMO map* is a map intended to be played in an FPSMO game.
