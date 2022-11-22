@@ -33,7 +33,6 @@ Read this first: [Overall description](Overall%20description.md) and [Plugin](Pl
 + [GUI](GUI.md) - What should be shown to the player and when
 + [Team versus team](Team%20versus%20team.md) - Specification for team vs. team
 + [Inventory](Inventory.md) - Items carried by a player, *i.e.* bullets, arrows, tnt...
-+ [Items](Items.md) - Items that can be collected on the map
 + [Lag compensation](Lag%20compensation.md) - What lag compensation does and how it works
 + [Maps](Maps.md) - How to design a map for an FPSMO game, spawning system, metadata, etc.
 + [Moderation](Moderation.md) - How moderation works, notably `/CmdReferee`
