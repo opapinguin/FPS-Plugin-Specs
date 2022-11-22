@@ -52,6 +52,9 @@
 + 259: Ammunition box rocket
 + 260: Ammunition box bazooka
 + 261: Ammunition box lasergun
++ 262: TNTs box
+
+**Assumption.** On an *FPSMO map*, every blocks should be hidden from the `B` block menu.
 
 **Requirement.** Map designers (or moderators, on their demand) must be able to attach the following metadata to their maps:
 
