@@ -17,6 +17,7 @@ ms_update_round_status = 50
 ms_update_weapon_animations = 50
 
 # Guns
+
 gun_block = 41
 min_gun_velocity = 50
 max_gun_velocity = 300
@@ -25,6 +26,7 @@ gun_damage = 1
 gun_frame_length = 1
 
 # Rockets
+
 rocket_block = 42
 min_rocket_velocity = 10
 max_rocket_velocity = 60
@@ -32,16 +34,12 @@ ms_rocket_reload = 2000
 rocket_damage = 1
 rocket_frame_length = 4
 
-# Afk
-s_afk-notice = 100
+s_afk_notice = 100
 s_afk = 120
 
-# Voting system
-# ============= 
-
-# If history is 0, it is possible to play the same map twice (or more).
-# If history is 1, the same map cannot be played twice.
-# If history is 2, the same map cannot be played twice for three consecutive rounds
-# If history is one but the number of maps in the pool (or larger), each map is played deterministically in the order they were added
+# How many previous played maps are saved. Used for voting.
 history = 0
+
+# Can be either team_vs_team or all_vs_all
+gamemode = team_vs_team
 ```

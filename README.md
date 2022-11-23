@@ -34,6 +34,7 @@ Read this first: [Overall description](Overall%20description.md) and [Plugin](Pl
 + [Inventory](Inventory.md) - Items carried by a player, *i.e.* bullets, arrows, tnt...
 + [Lag compensation](Lag%20compensation.md) - What lag compensation does and how it works
 + [Maps](Maps.md) - How to design a map for an FPSMO game, spawning system, metadata, etc.
++ [Navigation](Navigation.md) - Navigation between maps
 + [Recording games](Recording%20games.md) - How recording game works
 + [Voting](Voting.md) - How voting for the next map works
 + [Weapons](Weapons.md) - List of weapons and their characteristics
