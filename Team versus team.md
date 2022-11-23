@@ -11,13 +11,13 @@ In all following requirements, it is assumed that a game is running **and** its 
 ## Allocating teams
 
 + **If** a player joins the game for the first time in the round **and** the round is **not** at voting stage **then**:
-+ **if** teams are unequal **then** the player is assigned to the least populated team.
-+ **else if** teams have different scores **then** the player is assigned to the team with the lowest score
-+ **else then** the player is assigned a random team.
+    + **if** teams are unequal **then** the player is assigned to the least populated team.
+    + **else if** teams have different scores **then** the player is assigned to the team with the lowest score
+    + **else then** the player is assigned a random team.
 
 + **If** a player rejoins a round **and** the round is **not** at voting stage **then**:
-+ **if** doing so wouldn't unbalance the game, **then** the player is assigned to their previous team. 
-+ **else then** they are assigned to the least populated team.
+    + **if** doing so wouldn't unbalance the game, **then** the player is assigned to their previous team. 
+    + **else then** they are assigned to the least populated team.
 
 + **When** the round enters *countdown* stage, all in-game players are assigned to a random team such that teams are balanced.
 
