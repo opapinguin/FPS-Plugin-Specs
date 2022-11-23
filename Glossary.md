@@ -8,7 +8,7 @@
 
 **Definition.** *User.* Who is running a command. Can be *Console* or a *Player*.
 
-**Definition.** *Referee.* A moderator is said to be a *referee* if they ran the `/ref` command during an FPSMO game. If they leave the FPSMO map, they aren't referee anymore.
+**Definition.** *Referee.* A moderator is said to be a *referee* if they ran the `/ref` command during an FPSMO game. If they leave the FPSMO map, they are still considered as referees until they unref.
 
 **Definition.** *Map pool*. List of all maps designed for FPSMO that may appear in votes and be played.
 
