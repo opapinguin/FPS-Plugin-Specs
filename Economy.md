@@ -7,7 +7,7 @@
 | **Item**       | **Price** | **Description**                       | **Required level** |
 |----------------|-----------|---------------------------------------|--------------------|
 | LotteryTicket  | 10$       | Get the bet at the end of the round   | 1                  |
-| Nick           | 600$      | Custom nickname                       | 30                 |
+| Nick           | 1200$     | Custom nickname                       | 30                 |
 | Queue          | 80$       | Queue a map                           | 25                 |
 | VoteQueue      | 60$       | Given map will be voted en round ends | 25                 |
 | Title          | 250$      | Title in square brackets prefix       | 15                 |
@@ -15,37 +15,6 @@
 | LogoutMessage  | 180$      | Message displaying when logging out   | 20                 |
 | KickAll        | 2500$     | Kick everyone with 1% chance          | 35                 |
 
-+ Buying a lottery ticket and leaving the game before the end of the round does not refund.
+## Gaining money
 
-+ Buying a lottery ticket, leaving the game and joining back before the end of the round keeps the ticket active (you may still gain the bet).
-
-+ It is not possible to add colors to nick names [the reason being that your name's color depends on your team, it's either all-red or all-blue].
-
-+ It is not possible to buy a nickname if this nickname is the true name of another player.
-
-+ It is not possible to Queue a map if it's the one actually being played.
-
-+ It *is* possible to VoteQueue a map even if it's the one actually being played.
-
-+ If a player buys a VoteQueue/Queue and if the game is stopped, the player is refunded.
-
-+ It is not possible to VoteQueue/Queue if the corresponding map is not in the map pool.
-
-+ If a player buy a VoteQueue/Queue and if the corresponding map is removed from the map pool, the queue is cancelled and the player is refunded. A message informing this is sent to in-game players and referees.
-
-## Enabling/disabling
-
-+ If the XP system is *enabled*, each Item requires a minimum-level for the transaction to happen. If a player does not have enough XP, a message should be displayed informing them they cannot buy the item when they try to do so.
-
-## Commands
-
-+ `/buy <item> [args]` is used to buy items. It fails if either:
-    + The player does not have enough XP (assuming XP is enabled)
-    + *or* they do not have enough money
-    + *or* if some preconditions regarding the items and the arguments aren't met (buying a non-existent map for queue, for example)
-
-When failing, no money is taken from the player running the command.
-
-+ `/balance <player>` (or its shortcut `/money <player>`) shows how much moneys the given player has.
-
-+ `/store <item>` show information about that item.
++ **When** a player kills another player in all vs. all, it gives 2 moneys. 
