@@ -6,11 +6,11 @@ This document deals with `/goto`, `/tp`, `/ref` and all problems related with mo
 
 + **It is assumed that** the level permission for running `/tp` is set to `LevelPermission.Operator`.
 
-+ **If** a player runs `/goto <destination>` **where** an FPS game is being played on `<destination>` **and if** the player is **not** a referee **then**:
++ **If** a player runs `/goto <destination>` **when** an FPS game is being played on `<destination>` **and if** the player is **not** a referee **then**:
     + **if** the player is hidden, then the player is marked as referee **and** is moved to `<destination>` **and** is **not** considered as joining the game.
     + **else then** the player joins the game.
 
-+ **If** a player runs `/goto <destination>` **where** an FPS game is being played on `<destination>` **and if** the player **is** a referee **then** the player is moved to `<destination>` **and** is **not** considered as joining the game.
++ **If** a player runs `/goto <destination>` **when** an FPS game is being played on `<destination>` **and if** the player **is** a referee **then** the player is moved to `<destination>` **and** is **not** considered as joining the game.
 
 + **If** a player runs `/ref` while being in-game, **then** they are considered as leaving the game.
 
