@@ -42,6 +42,7 @@ Read this first: [Overall description](Overall%20description.md) and [Plugin](Pl
 
 # Commands registered by *FPSMOPlugin*
 
++ [CmdBuy](Commands/CmdBuy.md)
 + [CmdFPS](Commands/CmdFPS.md)
 + [CmdPlay](Commands/CmdPlay.md)
 + [CmdReplay](Commands/CmdReplay.md)

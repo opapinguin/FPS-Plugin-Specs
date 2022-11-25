@@ -37,6 +37,13 @@
         - 184: Full square
         - 185: Half square
         - 186-211: Bold lowercase a-z
+        - 212: Empty heart
+        - 213: Bow outline
+        - 214: Hand gun outline
+        - 215: Rocket outline
+        - 216: Bazooka outline
+        - 217: Laser gun outline
+        - 218: Sword outline
         - 224-246: Bold uppercase D-Z
         - 247: Bold bang
         - 248: Bold question mark
